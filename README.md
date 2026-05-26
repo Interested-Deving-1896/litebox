@@ -1,44 +1,75 @@
-# LiteBox
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# litebox
 
-> A security-focused library OS
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/litebox)
 
-> [!NOTE]  
-> This project is currently actively evolving and improving. While we are
-> working toward a stable release, some APIs and interfaces may change as the
-> design continues to mature. You are welcome to explore and experiment, but if
-> you need long-term stability, it may be best to wait for a stable release, or
-> be prepared to adapt to updates along the way.
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-LiteBox is a sandboxing library OS that drastically cuts down the interface to the host, thereby reducing attack surface.  It focuses on easy interop of various "North" shims and "South" platforms.  LiteBox is designed for usage in both kernel and non-kernel scenarios.
+## Architecture
 
-LiteBox exposes a Rust-y [`nix`](https://docs.rs/nix)/[`rustix`](https://docs.rs/rustix)-inspired "North" interface when it is provided a `Platform` interface at its "South".  These interfaces allow for a wide variety of use-cases, easily allowing for connection between any of the North--South pairs.
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-Example use cases include:
-- Running unmodified Linux programs on Windows
-- Sandboxing Linux applications on Linux
-- Run programs on top of SEV SNP
-- Running OP-TEE programs on Linux
-- Running on LVBS
+## Install
 
-![LiteBox and related projects](./.figures/litebox.svg)
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-## Contributing
+```bash
+git clone https://github.com/Interested-Deving-1896/litebox.git
+cd litebox
+```
 
-See the following files for details:
+## Usage
 
-- [CONTRIBUTING.md](./CONTRIBUTING.md)
-- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
-- [SECURITY.md](./SECURITY.md)
-- [SUPPORT.md](./SUPPORT.md)
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/litebox`](https://github.com/Interested-Deving-1896/litebox) and mirrored through:
+
+```
+Interested-Deving-1896/litebox  ──►  OpenOS-Project-OSP/litebox  ──►  OpenOS-Project-Ecosystem-OOC/litebox
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
 ## License
 
-MIT License.  See [./LICENSE](./LICENSE) for details.
-
-## Trademarks
-
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+<!-- AI:start:license -->
+[MIT](https://github.com/Interested-Deving-1896/litebox/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
